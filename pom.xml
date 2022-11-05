@@ -27,7 +27,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.wso2.carbon.identity.inbound.auth.openid</groupId>
     <artifactId>identity-inbound-auth-openid</artifactId>
-    <version>5.7.1</version>
+    <version>6.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>WSO2 Carbon Openid module</name>
     <url>http://wso2.org</url>
@@ -36,7 +36,7 @@
         <url>https://github.com/wso2-extensions/identity-inbound-auth-openid.git</url>
         <developerConnection>scm:git:https://github.com/wso2-extensions/identity-inbound-auth-openid.git</developerConnection>
         <connection>scm:git:https://github.com/wso2-extensions/identity-inbound-auth-openid.git</connection>
-        <tag>v5.7.1</tag>
+        <tag>v6.0.0-SNAPSHOT</tag>
     </scm>
 
     <modules>
@@ -299,7 +299,7 @@
     <properties>
         <!-- Identity Inbound Auth Openid Version-->
         <identity.inbound.auth.openid.exp.pkg.version>${project.version}</identity.inbound.auth.openid.exp.pkg.version>
-        <identity.inbound.auth.openid.imp.pkg.version.range>[5.4.0, 6.0.0)</identity.inbound.auth.openid.imp.pkg.version.range>
+        <identity.inbound.auth.openid.imp.pkg.version.range>[6.0.0, 7.0.0)</identity.inbound.auth.openid.imp.pkg.version.range>
 
         <!-- OSGi/Equinox dependency version -->
         <equinox.javax.servlet.version>3.0.0.v201112011016</equinox.javax.servlet.version>
@@ -314,8 +314,8 @@
         <carbon.kernel.registry.imp.pkg.version.range>[1.0.1, 2.0.0)</carbon.kernel.registry.imp.pkg.version.range>
 
         <!-- Carbon Identity Framework version -->
-        <carbon.identity.framework.version>5.18.0</carbon.identity.framework.version>
-        <carbon.identity.framework.imp.pkg.version.range>[5.15.0, 6.0.0)</carbon.identity.framework.imp.pkg.version.range>
+        <carbon.identity.framework.version>6.0.0-SNAPSHOT</carbon.identity.framework.version>
+        <carbon.identity.framework.imp.pkg.version.range>[6.0.0, 7.0.0)</carbon.identity.framework.imp.pkg.version.range>
 
         <!--Carbon component version-->
         <carbon.base.imp.pkg.version.range>[1.0.0, 2.0.0)</carbon.base.imp.pkg.version.range>
